@@ -7,7 +7,38 @@
   </head>
   <body>
     <div id="root"></div>
-    <script src="cipher.js"></script>
+    <!--encabezado de la aplicación-->
+    <header>
+      <h1>C E S A R I N</h1>
+    </header>
+    <hr>
+    <!--ingreso de texto-->
+    <form>
+      <p><label for='subtitle'>MENSAJE:</label>
+      <br>      
+      <input id='message' type='text' name='button' required>
+      </p>
+      <button id='copy'>Copiar</button>
+      <button id='clean'>Borrar</button>
+    </form>
+    <form>
+      <p>
+      <label for='result'>RESULTADO
+      </label>
+      <br>      
+      <input id='answer' type='text' name='answer' required>
+      </p>
+    </form>
+    <fieldset>
+      <label>
+        <input id='encode1' type="radio" name="encode" value="encriptar"> Encriptar
+      </label>
+      <label>
+        <input id='decode1' type="radio" name="decode" value="desencriptar"> Desencriptar
+      </label>
+    </fieldset>
+   
+     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
 </html>
