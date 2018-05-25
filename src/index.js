@@ -1,4 +1,3 @@
-function encriptar() {
-    let cadena = document.getElementById('message');
-    let cadenaNew = window.encode(cadena);
-}
+
+let cadena = document.getElementById(message);
+let result = document.getElementById("encriptar").addEventListener("click", window.cipher.encode(cadena) )

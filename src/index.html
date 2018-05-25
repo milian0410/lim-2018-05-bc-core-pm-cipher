@@ -10,26 +10,24 @@
     <!--encabezado de la aplicación-->
     <header>
       <h1>C E S A R I N</h1>
+      <h3>Encripta Easy</h3>
     </header>
     <hr>
     <!--ingreso de texto-->
     <form>
       <p><label for='subtitle'>MENSAJE:</label>
       <br>      
-      <input id='message' type='text' name='message' required>
+      <input id='message' type='text' name='mensaje' required>
       </p>
       <button id='copy'>Copiar</button>
       <button id='clean'>Borrar</button>
-    </form>
-    <form>
       <p>
-      <label for='result'>RESULTADO
-      </label>
+      <label for='result'>RESULTADO</label>
       <br>      
-      <input id='answer' type='text' name='answer' required>
+      <input id='answer' type='text' name='answer'>
       </p>
-        <button onclick="encriptar()">Encode</button>
-        <input id='decode1'  name="decode" value="desencriptar">
+        <button id="encriptar">Encriptar</button>
+        <button id="desencriptar">Desencriptar</button>
     </form>
      <script src="cipher.js"></script>
     <script src="index.js"></script>
