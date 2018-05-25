@@ -1,1 +1,4 @@
-let Message = document.getElementById('message');
+function encriptar() {
+    let cadena = document.getElementById('message');
+    let cadenaNew = window.encode(cadena);
+}

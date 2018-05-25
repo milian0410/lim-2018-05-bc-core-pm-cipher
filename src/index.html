@@ -16,7 +16,7 @@
     <form>
       <p><label for='subtitle'>MENSAJE:</label>
       <br>      
-      <input id='message' type='text' name='button' required>
+      <input id='message' type='text' name='message' required>
       </p>
       <button id='copy'>Copiar</button>
       <button id='clean'>Borrar</button>
@@ -28,16 +28,9 @@
       <br>      
       <input id='answer' type='text' name='answer' required>
       </p>
+        <button onclick="encriptar()">Encode</button>
+        <input id='decode1'  name="decode" value="desencriptar">
     </form>
-    <fieldset>
-      <label>
-        <input id='encode1' type="radio" name="encode" value="encriptar"> Encriptar
-      </label>
-      <label>
-        <input id='decode1' type="radio" name="decode" value="desencriptar"> Desencriptar
-      </label>
-    </fieldset>
-   
      <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
