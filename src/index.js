@@ -1,3 +1,13 @@
 
-let cadena = document.getElementById(message);
-let result = document.getElementById("encriptar").addEventListener("click", window.cipher.encode(cadena) )
+let cadena = document.getElementById("message");
+let Offset = document.getElementById("Offset");
+let botonEncode = document.getElementById("Encriptar");
+botonEncode.addEventListener("click", llamarAlCodigo());
+
+function llamarAlCodigo()
+{
+alert("estoy feliz");
+}
+
+
+
