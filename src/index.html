@@ -4,61 +4,63 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <!--enlace tipo de fuente del encabezado-->
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
   </head>
   <body>
     <!--encabezado de la aplicación-->
     <header>
       <!--logo de la aplicación-->
-      <section id="logo"></section>
+      <section id="logo"><img src="img/cipherA.jpg" height= "115"></section>
       <!--Titulo de la aplicación-->
-      <section id="titlecipher"><h1>SECRET CIPHER</h1></section>
+      <section id="titlecipher"><h1>S E C R E T  C I P H E R</h1></section>
       <!--Describe el concepto y el uso del cifrado-->
       <hr>
-      <section id="description">
+        <section id="description">
         <ul>
-          <li><strong>Cipher:</strong> Es una aplicación de cifrado que sirve para reemplazar la letra original por otra diferente y para eso utiliza el desplazamiento.</li>
-          <li><strong>Desplazamiento:</strong> Es el número de posiciones que vas a colocar para reemplazar a la letra original. El N° de desplazamiento sólo tu y/o el que recibe el mensaje deben tener</li>
-          <li>El cifrado es excelente para resguardar las conversaciones o mensajes que NO quieres que lean.</li>
+          <li><strong>SecretCipher:</strong> Es una aplicación que sirve para reemplazar el orden de las letras del mensaje y viceversa y para eso utiliza el <b>DESPLAZAMIENTO.</b></li>
+          <li><strong>Desplazamiento:</strong> Es el número que vas a colocar para reemplazar a la letra original. Puede ser cualquiera. El N° que escojas sólo tu y/o el que recibe el mensaje deben tenerlo.</li>
+          <li>El cifrado es excelente para resguardar las conversaciones o mensajes que NO quieres que lean, como el código morse. Bueno ahora PRUEBALO!!!</li>
         </ul>
       </section>  
     </header>
     <hr>
     <!--ingreso de texto-->
     <form>
-      <div>
-        <label for='subtitle'>Escriba o pegue el texto o código aquí:</label>
-        <br>      
-        <textarea id="message" title="Por favor, Ingresa el texto o codigo aquí" requerid ></textarea>
+       <div>
+        <p class= "text1" id='subtitle'><strong>Escriba o pegue el texto o código aquí:</strong></p>
+        <textarea id="message" title="Por favor, Ingresa el texto o codigo aquí"></textarea>
       </div>
       <!--Ingresar el Numero de desplazamiento-->
-      <br />
       <div>
-        <p Offset: &nbsp;><input id='offset' type='text' title="Por favor, ingresa un número" name='offset' required / ><p></p>
+        <p class= "text1"><strong>N° de Desplazamientos</strong></p>
+        <input id='offset' type='number' title="Por favor, ingresa un número" name='offset' / >
       </div>
+      <br />
       <!--Botones de cifrado y descifrado-->
       <div>
-        <button id='encode'>Cifrar</button>
-        <button id='decode'>Descifrar</button>
+        <button  type="button" id='encode'>Cifrar</button>
+        <button  type="button" id='decode'>Descifrar</button>
       </div>
       <br />
       <!--Resultado cifrado y descifrado-->
-      <div>
-        <label for='result'>Aquí aparecerá el texto cifrado o descifrado</label>
-        <br>      
-        <p id="answer"></p>
-      </div>
-      <br />
+      <label for='resultado'><strong>Aquí aparecerá el texto cifrado o descifrado</strong></label>
+      <p id="answer"></p>
       <!--Borrar el contenido de los input-->
       <div>
-          <button id='clean'>Limpiar</button>
+        <button  type="button" id='clean' onclick="myFunction">Siguiente Texto</button>
       </div>
       <!--Historial del cifrado-->
-      <br>  
+      <br />
       <div>
-        <label for='nHistory'>HISTORIAL</label>
+        <label for='nHistory'></strong>HISTORIAL</strong></label>
         <br />      
          <p id="history"></p>
       </div>
+      <hr>
+      <footer>
+        <p>Posted by: Martha Milagros Anticona Zola<br>Contact information: <a href="mailto:someone@example.com">milian0410@hotmail.com</a>.</p>
+      </footer>
     </form>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

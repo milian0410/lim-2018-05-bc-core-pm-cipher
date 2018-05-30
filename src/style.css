@@ -1,11 +1,91 @@
-h1 {
-    color: blue;
-    background-color: yellow;
-    border: 1px solid black;
-    padding: 20px;
+body {
+    background-color: #ECF0F1;
+    text: black;
+}
+#logo {
+        float: left;
+}
+
+header {
+    background-color: #ECF0F1;
+    color: black;
+    font-size: 18px;
+    margin-top: 0%;
+       
+}
+form {
     text-align: center;
-    font-size: 200%;
-  }
+    align-items: center;
+}
+
+#message {
+    height: 100px;
+    width:500px;
+}
+
+.text1 {
+    text-shadow: 30px;
+
+}
+   
+#encode {
+    border-radius: 3px;
+    box-shadow: 0 -3px 0 0 rgba(0,0,0,0.2) inset;
+    background-color: blue;
+    color: whitesmoke;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 15px 7px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 150px;
+}
+#decode {
+    border-radius: 3px;
+    box-shadow: 0 -3px 0 0 rgba(0,0,0,0.2) inset;
+    background-color: blueviolet;
+    color: whitesmoke;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 15px 7px;
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 150px;
+}
+#clean {
+    border-radius: 3px;
+    box-shadow: 0 -3px 0 0 rgba(0,0,0,0.2) inset;
+    background-color: red;
+    color: whitesmoke;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 15px 7px;
+    margin-right: 50px;
+    margin-left: 50px;
+    
+}
+h1 {
+    background-color: #270786;
+    border: 1px solid black;
+    font-family: 'Monoton', cursive;
+    padding: 25px;
+    text-align: center;
+    font-size: 225%;
+    color: yellow;
+    text-shadow: 1px 1px 0px #000,
+                2px 2px 0px #000,
+                3px 3px 0px #C9C5D0,
+                4px 4px 0px #C9C5D0,
+                5px 5px 0px #C9C5D0,
+                6px 6px 0px #333,
+                7px 7px 0px #333,
+                8px 8px 0px #333,
+                9px 9px 0px #333,
+                11px 11px 10px #000;;
+}
 h3 {
     color: blue;
     background-color: orange;
@@ -14,14 +94,18 @@ h3 {
     text-align: center;
     font-size: 200%;
 }
-form {
-    text-align: center;
-}
 #answer {
-    height: 100px;
-    width:500px;
+    text-align:left;
+    border-style: groove;
+    width: 50%;
+    margin-left: 25%;
 }
-#message {
-    height: 100px;
-    width:500px;
+footer {
+    background-color: #ECF0F1;
+    text-align: center;
+    bottom:0;
+    left:0;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }

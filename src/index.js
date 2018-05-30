@@ -1,25 +1,30 @@
 
-let cadena = document.getElementById("message").value;
-let offSet = document.getElementById("offset").value;
+//variable del texto//
+let text = document.getElementById("message");
+//variable del desplazamiento//
+let offset = document.getElementById("offset");
+//variable del boton cifrar//
 const botonEncode = document.getElementById("encode");
-botonEncode.addEventListener ("click", clickBotonEncode);
-let result = document.getElementById("answer");
+//variable del boton para descifrar//
+const botonDecode = document.getElementById("decode");
+//variable del resultado//
+const result = document.getElementById("answer");
+//variable del boton limpiar//
+const botonCleaner = document.getElementById("clean");
 
+//llamar a la función con el botón cifrar//
+botonEncode.addEventListener ("click", ()=> {
+    result.innerHTML = cipher.encode(parseInt(offset.value), text.value);
+});
+console.log(result.value);
 
-function clickBotonEncode() {
-    let cadenaNew="";
-    for(let i=0; i<cadena.length; i++) {
-        let caracter= cadena.charCodeAt(i);
-        let caracterNew=(caracter-65+offset)%26+65;
-    cadenaNew += String.fromCharCode(caracterNew);
-    }
-document.getElementById("answer").innerHTML = cadenaNew.value;
+//llamar a la función con el botón descifrar//
+botonDecode.addEventListener ("click", ()=> {
+    result.innerHTML = cipher.decode(parseInt(offset.value), text.value);
+});
+console.log(result.value);
+
+//llamar a la función con el boton limpiar//
+function myFunction() {
+    document.getElementById("message").value = "";
 }
-
-/*
-let cadenaNew ='';
-
-      for(let i=0; i<cadena.length; i++) {
-        let caracter= cadena.charCodeAt(i);
-        let caracterNew=(caracter-65+1)%26+65;
-         cadenaNew = cadenaNew + String.fromCharCode(caracterNew);*/
