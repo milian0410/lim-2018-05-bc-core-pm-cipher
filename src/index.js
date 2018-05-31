@@ -16,13 +16,13 @@ const botonCleaner = document.getElementById("clean");
 botonEncode.addEventListener ("click", ()=> {
     result.innerHTML = cipher.encode(parseInt(offset.value), text.value.toUpperCase());
 });
-console.log(result.value);
+//console.log(result.value);//
 
 //llamar a la función con el botón descifrar//
 botonDecode.addEventListener ("click", ()=> {
     result.innerHTML = cipher.decode(parseInt(offset.value), text.value.toUpperCase());
 });
-console.log(result.value);
+//console.log(result.value);//
 
 //llamar a la función con el boton limpiar//
 botonCleaner.addEventListener("click", ()=> {
