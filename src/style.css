@@ -95,10 +95,11 @@ h3 {
     font-size: 200%;
 }
 #answer {
-    text-align:left;
     border-style: groove;
-    width: 50%;
-    margin-left: 25%;
+    height: 100px;
+    width:33%;
+    margin-left: 33%;
+    overflow: scroll;
 }
 footer {
     background-color: #ECF0F1;
@@ -108,4 +109,8 @@ footer {
     width: 100%;
     padding: 0px;
     margin: 0px;
+}
+#convert {
+    margin-left: auto;
+  margin-right: auto;
 }

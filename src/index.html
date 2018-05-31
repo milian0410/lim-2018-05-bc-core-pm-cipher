@@ -34,7 +34,7 @@
       <!--Ingresar el Numero de desplazamiento-->
       <div>
         <p class= "text1"><strong>N° de Desplazamientos</strong></p>
-        <input id='offset' type='number' title="Por favor, ingresa un número" name='offset' / >
+        <input id='offset' min="1" type='number' title="Por favor, ingresa un número" name='offset' / >
       </div>
       <br />
       <!--Botones de cifrado y descifrado-->
@@ -45,10 +45,12 @@
       <br />
       <!--Resultado cifrado y descifrado-->
       <label for='resultado'><strong>Aquí aparecerá el texto cifrado o descifrado</strong></label>
-      <p id="answer"></p>
+      <div>
+        <p id="answer"></p>
+      </div>
       <!--Borrar el contenido de los input-->
       <div>
-        <button  type="button" id='clean' onclick="myFunction">Siguiente Texto</button>
+        <button  type="button" id='clean'>Siguiente Texto</button>
       </div>
       <!--Historial del cifrado-->
       <br />

@@ -14,17 +14,17 @@ const botonCleaner = document.getElementById("clean");
 
 //llamar a la función con el botón cifrar//
 botonEncode.addEventListener ("click", ()=> {
-    result.innerHTML = cipher.encode(parseInt(offset.value), text.value);
+    result.innerHTML = cipher.encode(parseInt(offset.value), text.value.toUpperCase());
 });
 console.log(result.value);
 
 //llamar a la función con el botón descifrar//
 botonDecode.addEventListener ("click", ()=> {
-    result.innerHTML = cipher.decode(parseInt(offset.value), text.value);
+    result.innerHTML = cipher.decode(parseInt(offset.value), text.value.toUpperCase());
 });
 console.log(result.value);
 
 //llamar a la función con el boton limpiar//
-function myFunction() {
+botonCleaner.addEventListener("click", ()=> {
     document.getElementById("message").value = "";
-}
+});
