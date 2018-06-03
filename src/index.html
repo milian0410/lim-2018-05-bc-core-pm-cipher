@@ -18,9 +18,9 @@
       <hr>
         <section id="description">
         <ul>
-          <li><strong>SecretCipher:</strong> Es una aplicación que sirve para reemplazar el orden de las letras del mensaje y viceversa y para eso utiliza el <b>DESPLAZAMIENTO.</b></li>
-          <li><strong>Desplazamiento:</strong> Es el número que vas a colocar para reemplazar a la letra original. Puede ser cualquiera. El N° que escojas sólo tu y/o el que recibe el mensaje deben tenerlo.</li>
-          <li>El cifrado es excelente para resguardar las conversaciones o mensajes que NO quieres que lean, como el código morse. Bueno ahora PRUEBALO!!!</li>
+          <li><strong>SecretCipher:</strong> Sirve para reemplazar tu MENSAJE en un CÓDIGO SECRETO y viceversa y para eso utiliza el <b>DESPLAZAMIENTO.</b></li>
+          <li><strong>Desplazamiento:</strong> Es un número que te servirá para cambiar tu MENSAJE a un CÓDIGO SECRETO. Puede ser cualquiera. El N° que escojas sólo tu y/o el que recibe el mensaje deben tenerlo.</li>
+          <li>El cifrado es excelente para resguardar las conversaciones o mensajes que NO quieres que lean. Bueno ahora PRUEBALO!!!</li>
         </ul>
       </section>  
     </header>
@@ -29,39 +29,32 @@
     <form>
        <div>
         <p class= "text1" id="subtitle"><strong>Escriba o pegue el texto o código aquí:</strong></p>
-        <textarea id="message" title="Por favor, Ingresa el texto o codigo aquí"></textarea>
+        <textarea id="message" placeholder="Tu mensaje o Códgo Secreto aquí"></textarea>
       </div>
       <!--Ingresar el Numero de desplazamiento-->
       <div>
         <p class= "text1"><strong>N° de Desplazamientos</strong></p>
-        <input id="offset" min="1" type="number" title="Por favor, ingresa un número" name="offset" />
+        <input id="offset" min="1" type="number" name="offset" />
       </div>
       <br />
       <!--Botones de cifrado y descifrado-->
       <div>
-        <button  type="button" id="encode">Cifrar</button>
-        <button  type="button" id="decode">Descifrar</button>
+        <button  id="encode" type="button" >Cifrar</button>
+        <button  id="decode" type="button" >Descifrar</button>
       </div>
       <br />
       <!--Resultado cifrado y descifrado-->
-      <label for="resultado"><strong>Aquí aparecerá el texto cifrado o descifrado</strong></label>
+      <label for="answer1"><strong>Aquí aparecerá el texto cifrado o descifrado</strong></label>
       <div>
         <p id="answer"></p> 
       </div>
       <!--Borrar el contenido de los input-->
       <div>
-        <button  type="button" id="clean">Siguiente Texto</button>
-      </div>
-      <!--Historial del cifrado-->
-      <br />
-      <div>
-        <label for="nHistory"><strong>HISTORIAL</strong></label>
-        <br />      
-         <p id="history"></p>
+        <button id="clean" type="button">Siguiente Texto</button>
       </div>
       <hr>
       <footer>
-        <p>Posted by: Martha Milagros Anticona Zola<br>Contact information: <a href="mailto:someone@example.com">milian0410@hotmail.com</a>.</p>
+        <p>Posted by: Martha Milagros Anticona Zola<br>Contact information: <a href="https://www.creacionesweb.com">www.creacionesweb.com</a>.</p>
       </footer>
     </form>
     <script src="cipher.js"></script>
