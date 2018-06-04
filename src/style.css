@@ -1,6 +1,7 @@
 body {
     background-color: #ECF0F1;
     color: black;
+    background-size: 50%;
 }
 #logo {
     float: left;
@@ -17,7 +18,7 @@ form {
 }
 #message {
     height: 100px;
-    width:500px;
+    width:800px;
     box-shadow: 0 0 20px blue;
 }
 .text1 {
@@ -86,20 +87,13 @@ h1 {
                 9px 9px 0px #333,
                 11px 11px 10px #000;;
 }
-h3 {
-    color: blue;
-    background-color: orange;
-    border: 1px solid black;
-    padding: 20px;
-    text-align: center;
-    font-size: 200%;
-}
 #answer {
     border-style: groove;
     height: 100px;
-    width:33%;
-    margin-left: 33%;
+    width:800px;
+    margin-left: 20%;
     overflow: scroll;
+    text-align: left;
 }
 footer {
     background-color: #ECF0F1;
