@@ -76,6 +76,8 @@ CSS3:| Diseño de Página
 Visual studio code:| editor de código
 Repl.it:| Editor de código online
 Node.js|testeo
+github| Repositorio
+
 
 |Dependencias:  |
 |-------------- |
@@ -99,6 +101,7 @@ Desarrolladora Web. Martha Milagros Anticona Zola
 ## REFERENCIAS.<a name="id10"></a>
 --------------
 http://www.paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF CSS
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
 
