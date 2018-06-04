@@ -3,20 +3,32 @@
 INDICE
 ------
 [INTRODUCCIÓN](#id1)
+
 [DIRIGIDO A](#id2)
+
 [OBJETIVO DEL PROYECTO](#id3)
+
 [PROBLEMA DEL USUARIO](#id4)
+
 [SOLUCIÓN AL PROBLEMA DEL USUARIO](#id5)
+
 [DECISONES DE DISEÑO](#id6)
+
 [FUNCIONALIDAD](#id7)
+
 [HERRAMIENTAS QUE SE UTILIZÓ EN LA APLICACIÓN](#id8)
+
 [AUTOR](#id9)
+
 [REFERENCIAS](#id10)
 
 
 ## INTRODUCCIÓN<a name="id1"></a>
 ----------------
-<div class="text-justify">El presente Proyecto denominado Secret Cipher,  que esta desarrollada en base al codigo cesar, “En criptografía, el cifrado César, también conocido como cifrado por desplazamiento, código de César o desplazamiento de César, es una de las técnicas de cifrado más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto. Por ejemplo, con un desplazamiento de 3, la A sería sustituida por la D (situada 3 lugares a la derecha de la A), la B sería reemplazada por la E, etc. Este método debe su nombre a Julio César, que lo usaba para comunicarse con sus generales.” A la disciplina que estudia estos métodos matemáticos se le llama criptografía.
+<div class="text-justify">El presente Proyecto denominado Secret Cipher,  que esta desarrollada en base al codigo cesar, “En criptografía, el [cifrado César](https://es.wikipedia.org/wiki/Cifrado_C%C3%A9sar). también conocido como cifrado por desplazamiento, código de César o desplazamiento de César, es una de las técnicas de cifrado más simples y más usadas. Es un tipo de cifrado por sustitución en el que una letra en el texto original es reemplazada por otra letra que se encuentra un número fijo de posiciones más adelante en el alfabeto. Por ejemplo, con un desplazamiento de 3, la A sería sustituida por la D (situada 3 lugares a la derecha de la A), la B sería reemplazada por la E, etc. Este método debe su nombre a Julio César, que lo usaba para comunicarse con sus generales.”
+
+A la disciplina que estudia estos métodos matemáticos se le llama criptografía.
+
 Esta aplicación se basa en ese código, la sustitución de la letra original por otra utilizando desplazamientos (número que transforma tu mensaje original en un código secreto.</div> 
 
 ## DIRIGIDO A:<a name="id2"></a>
@@ -64,21 +76,22 @@ Haces click en descifrar y bualá. Ya está.
 ## HERRAMIENTAS QUE SE UTILIZO EN LA APLICACIÓN <a name="id8"></a>
 ---------------------------------------------
 
-|HTML5:| Marcador de texto|
-|JAVASCRIPT:| Lenguaje de Programación|
-|CSS3:| Diseño de Página|
-|Visual studio code:| editor de código|
-|Repl.it:| Editor de código online|
-|Node.js|testeo|
+HTML5:| Marcador de texto
+------|------------------
+JAVASCRIPT:| Lenguaje de Programación
+CSS3:| Diseño de Página
+Visual studio code:| editor de código
+Repl.it:| Editor de código online
+Node.js|testeo
 
-|Dependencias:|
---------------
-|Mocha: |
-|Chai:|
-|Htmlhint|
-|Nyc|
-|Opener|
-|Eslint|
+|Dependencias:  |
+|-------------- |
+|Mocha:         |
+|Chai:          |
+|Htmlhint       |
+|Nyc            |
+|Opener         |
+|Eslint         |
 
 Para css
 Paletón
