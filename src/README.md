@@ -54,15 +54,17 @@ Al realizar la interfaz del usuario se utilizó herramientas que facilitaron el 
 
 Para poder utilizar SECRET CIPHER, solo necesitas una computadora, laptop, Tablet, celular, ya que acepta a todos los formatos.
 
-*La funcionalidad es muy sencilla abres la app.  
-*En el caso de cifrar:  
-*Ingresar el texto a cifrar.  
-*Haces clic a cifrar.  
-*Y te aparece abajo el texto cifrado.  
-*Si quieres ingresar otro texto haces click en pruébalo otra vez  
-*Para descifrar:  
-*Ingresas el texto a descifrar  
-*Haces click en descifrar y bualá. Ya está. 
+* La funcionalidad es muy sencilla abres la app.  
+
+En el caso de cifrar:  
+* Ingresar el texto a cifrar.  
+* Haces clic a cifrar.  
+* Y te aparece abajo el texto cifrado.  
+* Si quieres ingresar otro texto haces click en pruébalo otra vez  
+
+Para descifrar:  
+* Ingresas el texto a descifrar  
+* Haces click en descifrar y bualá. Ya está. 
 
 [![secretcipher](http://img.youtube.com/vi/4A3pJm4xsS8/0.jpg)](http://www.youtube.com/watch?v=4A3pJm4xsS8 "cifrado")
 
@@ -100,7 +102,7 @@ Desarrolladora Web. Martha Milagros Anticona Zola
 
 ## REFERENCIAS.<a name="id10"></a>
 --------------
-http://www.paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF CSS
+http://www.paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF CSS  
 https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 
