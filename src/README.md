@@ -64,7 +64,7 @@ Para poder utilizar SECRET CIPHER, solo necesitas una computadora, laptop, Table
 *Ingresas el texto a descifrar  
 *Haces click en descifrar y bualá. Ya está. 
 
-[url=https://imgflip.com/gif/2bkany][img]https://i.imgflip.com/2bkany.gif[/img][/url][url=https://imgflip.com/gif-maker]via Imgflip GIF Maker[/url]
+![gif](https://imgflip.com/gif/2bkany)
 
 ## HERRAMIENTAS QUE SE UTILIZO EN LA APLICACIÓN <a name="id8"></a>
 ---------------------------------------------
