@@ -64,7 +64,7 @@ Para poder utilizar SECRET CIPHER, solo necesitas una computadora, laptop, Table
 *Ingresas el texto a descifrar  
 *Haces click en descifrar y bualá. Ya está. 
 
-![gif](https://imgflip.com/gif/2bkany)
+[![secretcipher](http://img.youtube.com/vi/4A3pJm4xsS8/0.jpg)](http://www.youtube.com/watch?v=4A3pJm4xsS8 "cifrado")
 
 ## HERRAMIENTAS QUE SE UTILIZO EN LA APLICACIÓN <a name="id8"></a>
 ---------------------------------------------
