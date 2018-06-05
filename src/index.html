@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
     <!--enlace tipo de fuente del encabezado-->
@@ -29,7 +30,7 @@
     <form>
        <div>
         <p class= "text1" id="subtitle"><strong>Escriba o pegue el texto o código aquí:</strong></p>
-        <textarea id="message" placeholder="Tu mensaje o Códgo Secreto aquí"></textarea>
+        <textarea id="message" placeholder="Tu mensaje o Códgo Secreto aquí" cols="100" rows="10"></textarea>
       </div>
       <!--Ingresar el Numero de desplazamiento-->
       <div>
@@ -44,9 +45,9 @@
       </div>
       <br />
       <!--Resultado cifrado y descifrado-->
-      <label for="answer1"><strong>Aquí aparecerá el texto cifrado o descifrado</strong></label>
+      <p><strong>Aquí aparecerá el texto cifrado o descifrado</strong></p>
       <div>
-        <p id="answer"></p> 
+        <textarea id="answer" placeholder="Tu respuesta aparecerá aquí" cols="100" rows="10" readonly></textarea>
       </div>
       <!--Borrar el contenido de los input-->
       <div>

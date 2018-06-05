@@ -1,7 +1,7 @@
 body {
     background-color: #ECF0F1;
     color: black;
-    background-size: 50%;
+    
 }
 #logo {
     float: left;
@@ -10,11 +10,9 @@ header {
     background-color: #ECF0F1;
     color: black;
     font-size: 18px;
-    margin-top: 0%;
 }
 h1 {
     background-color: #270786;
-    border: 1px solid black;
     font-family: 'Monoton', 'cursive';
     padding: 25px;
     text-align: center;
@@ -38,18 +36,19 @@ h1:hover {
 form {
     text-align: center;
     align-items: center;
+    
 }
 #message {
-    height: 100px;
-    width:800px;
+    height: 200%;
+    width: 50%;
     box-shadow: 0 0 20px blue;
 }
 .text1 {
     text-shadow: 30px;
 }
 #offset {
-    width: 60px;
-    height: 20px;
+    width: 80px;
+    height: 30px;
     box-shadow: 0 0 20px blue;
 }
 #encode {
@@ -103,12 +102,12 @@ form {
     background-color: green;
 }
 #answer {
-    border-style: groove;
-    height: 100px;
-    width:800px;
-    margin-left: 20%;
-    overflow: scroll;
-    text-align: left;
+    height: 200%;
+    width: 50%;
+    box-shadow: 0 0 20px blue;
+    
+   
+
 }
 footer {
     background-color: #ECF0F1;
